@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>my</servlet-name>
+        <servlet-class>com.takeo.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>my</servlet-name>
+        <url-pattern>/mine</url-pattern>
+    </servlet-mapping>
+</web-app>
